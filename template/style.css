@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+body {
+	color: #333;
+	background: #fff;
+	font-family: 'Noto Serif', serif;
+	text-align: center;
+	margin: 1cm 15% 2cm 15%;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	z-index: 2;
+}
+
+.hover {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 5%;
+}
+
+.overlay {
+	font-weight: 100;
+	font-size: 90px;
+	z-index: 1;
+	color: rgba(68, 68, 68, 0.18);
+}
+
+div.header {
+	text-align: center;
+}
+
+.header h1 {
+	font-weight: bold;
+}
+
+.header p {
+	font-weight: italic;
+	color: #BFC9CA;
+}
+
+div.sep {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+div.info {
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+div.info h2 {
+	text-align: left;
+	margin-bottom: .3em;
+	margin-top: 1em;
+}
+
+div.info p {
+	text-align: left;
+	line-height: 30px;
+	margin-top: 0;
+}
+
+/*
+.info strong {
+	font-size: 27px;
+	font-weight: normal;
+	margin-left: 25px;
+}
+*/
+
+.info ul {
+	text-align: left;
+}
+
+#signature {
+	border: 1px solid #3b3b3b;
+}
+
+.submit {
+	display: block;
+	width: 145px;
+	padding: 15px;
+	background: #292929;
+	color: #fff;
+	font-weight: 300;
+	margin: auto;
+}
+
+.submit:hover {
+	padding: 5px 15px;
+	margin: 10px auto;
+	background: #fff;
+	color: #292929;
+	border: 2px solid #292929;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
